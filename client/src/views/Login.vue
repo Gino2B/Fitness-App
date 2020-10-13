@@ -48,7 +48,7 @@ export default {
                 profile: '',
             }
             session.addNotification('Yay! You logged in', 'success')
-            this.$router.push('feed')
+            this.$router.push('/')
         }
     }
 }

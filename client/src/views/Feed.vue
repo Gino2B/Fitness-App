@@ -8,7 +8,7 @@
                     :key="i"
                     :post="x" />
             </div>
-            <div class="column is-one-third" @mouseenter="error">
+            <div class="column is-one-third">
                 <Sidebar />
             </div>
         </div>

@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Feed from '../views/Feed.vue'
 import session from '../models/session'
-
+import Exercises from '../views/Exercises.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,6 +14,12 @@ const routes = [
     path: '/feed',
     name: 'Feed',
     component: () => import(/* webpackChunkName: "about" */ '../views/Feed.vue'),
+    beforeEnter: checkSessionUser
+  },
+  {
+    path: '/exercises',
+    name: 'Exercises',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Exercises.vue'),
     beforeEnter: checkSessionUser
   },
   {
