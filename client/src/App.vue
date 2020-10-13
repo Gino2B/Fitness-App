@@ -1,18 +1,20 @@
 <template>
-   <section class="section">
+  <div>
+    <Nav />
     <div class="container">
-      <Nav />
+      <Notifications />
       <router-view/>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
 import Nav from "@/components/Nav";
+import Notifications from "@/components/Notifications";
 
 export default {
   components: {
-    Nav
+    Nav, Notifications
   }
 }
 </script>
