@@ -45,7 +45,7 @@ export default {
             session.user = {
                 name: 'John Smith',
                 handle: 'johnsmith',
-                profile: '',
+                profile: 'https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTU3ODc5MDgzNDc5NjcyNTQz/portrait-of-john-smith.jpg',
             }
             session.addNotification('Yay! You logged in', 'success')
             this.$router.push('/')
