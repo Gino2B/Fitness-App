@@ -1,4 +1,4 @@
 module.exports = {
-    ourputDir: '../docs/',
+    outputDir: '../docs/',
     publicPath: './'
 }
