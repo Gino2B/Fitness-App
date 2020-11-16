@@ -13,7 +13,7 @@
     </a>
   </div>
 
-  <div id="navbarBasicExample" class="navbar-menu" :class="{ 'is-active': isActive }">
+  <div id="navbarBasicExample" class="navbar-menu"  :class="{ 'is-active': isActive }">
     <div class="navbar-start">
       <router-link to="/"  class="navbar-item" >Home</router-link>
       <router-link to="/about"  class="navbar-item" >About</router-link>
@@ -49,8 +49,6 @@
         </div>
       </div>
     </div>
-  
-  </div>
 
     <div class="navbar-end">
       <div class="navbar-item">

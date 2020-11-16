@@ -5,6 +5,8 @@ import Login from '../views/Login.vue'
 import Feed from '../views/Feed.vue'
 import session from '../models/session'
 import Exercises from '../views/Exercises.vue'
+import Users from '../views/Users.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
