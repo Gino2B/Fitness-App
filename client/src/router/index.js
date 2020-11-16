@@ -8,8 +8,9 @@ import Exercises from '../views/Exercises.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  {path: '/',name: 'Home',component: Home},
-  {path: '/login',name: 'Login',component: Login},
+  { path: '/', name: 'Home', component: Home },
+  { path: '/login', name: 'Login', component: Login },
+  { path: '/users', name: 'Users', component: Users },
   {
     path: '/feed',
     name: 'Feed',
