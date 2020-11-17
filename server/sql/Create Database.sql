@@ -270,9 +270,12 @@ INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type
 INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (DEFAULT, 'Now()', DEFAULT, 'Email', 4);
 INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (DEFAULT, 'Now()', DEFAULT, 'Cell Phone', 4);
 INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (7, 'Now()', DEFAULT, 'Endurance', 5);
-INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (8, 'Now()', DEFAULT, 'Balance', 5);
-INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (9, 'Now()', DEFAULT, 'Strength', 5);
-INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (10, 'Now()', DEFAULT, 'Flexibility', 5);
+INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (8, 'Now()', DEFAULT, 'Strength', 5);
+INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (9, 'Now()', DEFAULT, 'Pushups', 6);
+INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (10, 'Now()', DEFAULT, 'Pullups', 6);
+INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (11, 'Now()', DEFAULT, 'Curls', 6);
+INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (12, 'Now()', DEFAULT, 'Planks', 6);
+INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (13, 'Now()', DEFAULT, 'Running', 6);
 
 INSERT INTO `EX_Fall_2020_Types` (`id`, `created_at`, `update_at`, `Name`, `Type_id`) VALUES (420, 'Now()', DEFAULT, 'Reactions', 20);
 
