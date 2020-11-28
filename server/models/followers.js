@@ -49,4 +49,4 @@ async function remove(id){
 
 const search = async q => await mysql.query(`SELECT id, FirstName, LastName FROM ${PREFIX}Users WHERE LastName LIKE ? OR FirstName LIKE ?; `, [`%${q}%`, `%${q}%`]);
 
-module.exports = { getAll, get, add, update, remove, getTypes, register, login, search, Types }
+module.exports = { getAll, get, add, update, remove, getTypes, search}
