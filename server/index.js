@@ -6,6 +6,8 @@ const users = require('./controllers/users');
 const posts = require('./controllers/posts');
 const comments = require('./controllers/comments');
 const reactions = require('./controllers/reactions');
+const followers = require('./controllers/followers');
+
 
 const app = express()
 const port = process.env.PORT || 3000;
@@ -30,6 +32,7 @@ app.get('/hello', (req, res, next) => {
   res.send('Hello Hudson Valley! You requested ' + req.url)
 })
 
+app.use('/followers', followers);
 app.use('/users', users);
 app.use('/posts', posts);
 app.use('/comments', comments);

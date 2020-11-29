@@ -6,6 +6,7 @@ import Feed from '../views/Feed.vue'
 import session from '../models/session'
 import Exercises from '../views/Exercises.vue'
 import Users from '../views/Users.vue'
+import Follow from '../views/Follow.vue'
 
 Vue.use(VueRouter)
 
@@ -13,6 +14,7 @@ const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/login', name: 'Login', component: Login },
   { path: '/users', name: 'Users', component: Users },
+  { path: '/follow', name: 'Follow', component: Follow },
   {
     path: '/feed',
     name: 'Feed',

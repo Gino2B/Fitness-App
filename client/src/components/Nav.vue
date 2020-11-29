@@ -19,6 +19,7 @@
       <router-link to="/about"  class="navbar-item" >About</router-link>
       <router-link to="/feed"  class="navbar-item" >Feed</router-link>
       <router-link to="/exercises" class="navbar-item">Exercises</router-link>
+      <router-link to="/follow" class="navbar-item">Follow</router-link>
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
