@@ -12,7 +12,7 @@ async function getAll(){
     //throw { status: 501, message: "This is a fake error" }
     //await Promise.resolve()
     console.log("Called Get All")
-    return await mysql.query(`SELECT * FROM ${PREFIX}Users`);
+    return await mysql.query(`SELECT * FROM ${PREFIX}Followers`);
 }
 
 async function get(id){
