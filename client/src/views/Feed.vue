@@ -1,6 +1,7 @@
 <template>
   <div class="page">
-      <h2 class="title is-2">Feed Page</h2>
+      <div class="mt-5">
+      <h2 class="title is-2" >Feed Page</h2>
 
         <div class="columns">
             <div class="column is-one-quarter" @mouseenter="error">
@@ -30,6 +31,7 @@
             <div class="column is-one-quarter" @mouseenter="error">
                 <Sidebar />
             </div>
+        </div>
         </div>
   </div>
 </template>

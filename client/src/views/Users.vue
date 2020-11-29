@@ -1,5 +1,6 @@
 <template>
   <div class="page">
+      <div class= "mt-5">
       <h2 class="title is-2">Users Page</h2>
 
         <table class="table is-narrow is-hoverable is-fullwidth">
@@ -25,6 +26,7 @@
                 </tr>
             </tbody>
         </table>
+      </div>
 
   </div>
 </template>
