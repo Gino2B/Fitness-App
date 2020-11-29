@@ -2,7 +2,7 @@ const bcrypt = require('bcrypt');
 const mysql = require('./mysql');
 const cm = require('./ContactMethods');
 
-const PREFIX = process.env.MYSQL_TABLE_PREFIX || 'Fall2020_';
+const PREFIX = process.env.MYSQL_TABLE_PREFIX || 'EX_Fall_2020_';
 const SALT_ROUNDS = process.env.SALT_ROUNDS || 8;
 const Types = { Endurance: 7, Balance: 8, Strength: 9, Flexibility: 10 };
 

@@ -2,7 +2,7 @@
 */
 const mysql = require('./mysql');
 
-const PREFIX = process.env.MYSQL_TABLE_PREFIX || 'Fall2020_';
+const PREFIX = process.env.MYSQL_TABLE_PREFIX || 'EX_Fall_2020_';
 const MediaTypes = { GIF: 'image/gif', JPG: 'image/jpeg', PNG: 'image/png' };
 const Privacy_Levels = { HIDDEN: 0, ONLY_ME: 1, ONLY_FRIENDS: 2, PUBLIC: 4 };
 

@@ -1,7 +1,7 @@
 /* B"H
 */
 const mysql = require('./mysql');
-const PREFIX = process.env.MYSQL_TABLE_PREFIX || 'Fall2020_';
+const PREFIX = process.env.MYSQL_TABLE_PREFIX || 'EX_Fall_2020_';
 const Types = { PUSHUPS: 'Pushups', PULLUPS: 'Pullups', CURLS: 'Curls', PLANKS: 'Planks', RUNNING: 'Running'};
 
 async function getAll(){
