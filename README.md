@@ -2,4 +2,4 @@
 A fitness app project
 
 ## Final
-Thanks for the class
+Thanks for the class!
