@@ -10,7 +10,9 @@
         </span>
       </button>
       </div>
-      <input class="button" type="submit" value="Post Workout">
+      <div class="centersize">
+        <input class="button" type="submit" value="Post Workout">
+      </div>
     </div>
     <div class="dropdown-menu" id="dropdown-menu4" role="menu" v-if="isLeftOpen">
       <div class="dropdown-content">
@@ -114,6 +116,11 @@ export default {
 </script>
 
 <style>
+div.centersize{
+  margin: 0;
+  position: absolute;
+  left: 350%;
+}
 div.dropdown-trigger-right{
   position: absolute;
   width:200px;
