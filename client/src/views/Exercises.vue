@@ -10,6 +10,7 @@
         </span>
       </button>
       </div>
+      <input class="button" type="submit" value="Post Workout">
     </div>
     <div class="dropdown-menu" id="dropdown-menu4" role="menu" v-if="isLeftOpen">
       <div class="dropdown-content">
@@ -46,7 +47,7 @@
     <div class="dropdown-menu-right" id="dropdown-menu6" role="menu" v-if="isRightOpen">
       <div class="dropdown-content">
         <div class="dropdown-item">
-          <p>Add the <code>is-right</code> modifier for a <strong>right-aligned</strong> dropdown.</p>
+
         </div>
       </div>
     </div>
@@ -58,9 +59,7 @@
       <img src="https://upl.stack.com/wp-content/uploads/Quickly-Strengthen-Your-Upper-Body-With-Pyramid-Push-Ups.jpg" 
       alt="pushups" style="width:500px;height:300px;">
       <br> This is a pushup!
-      <button class="button"> 
-        Add Pushup 
-      </button>
+        <input class="button" type="submit" value="Add pushup">
       </span>
     </div>
     <div class="situps">
@@ -70,9 +69,7 @@
      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bootcamp-situp-1441032989.jpg" 
      alt="situps" style="width:1000px; height 500px;">
       <br> This is a situp!
-      <button class="button"> 
-        Add situps 
-      </button>      
+      <input class="button" type="submit" value="Add situp">   
       </span>
     </div>
     <div class="pullups">
@@ -82,9 +79,7 @@
       <img src="https://www.climbing.com/.image/t_share/MTM3MzI0NDMzMjY5MzM1MjA5/trainingperfectpullupsjpg.jpg" 
       alt="pullups" style="width:1000px; height 500px;">
       <br> This is a pullup!    
-      <button class="button"> 
-        Add Pullup 
-      </button>
+      <input class="button" type="submit" value="Add pullup">
       </span>    
     </div>
     <div class="planks">
@@ -94,9 +89,7 @@
       <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hdm119918mh15842-1545237096.png" 
       alt="planks" style="width:1000px; height 500px;">
       <br> This is a plank!
-      <button class="button"> 
-        Add Pushup 
-      </button>    
+      <input class="button" type="submit" value="Add plank"> 
       </span>   
     </div>         
 </div>
